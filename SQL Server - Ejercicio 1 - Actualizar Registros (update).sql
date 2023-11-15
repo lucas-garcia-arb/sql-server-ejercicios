@@ -1,3 +1,5 @@
+USE db1;
+
 IF object_id('agenda') is not null
 	DROP TABLE agenda; 
  

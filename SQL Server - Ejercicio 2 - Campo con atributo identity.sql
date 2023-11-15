@@ -39,7 +39,7 @@ WHERE titulo='La vida es bella';
 
 --8
 INSERT INTO peliculas (titulo, actor, duracion) 
-VALUES ('El rey leÃ³n', null, 123);
+VALUES ('El rey león', null, 123);
 
 --9
 SELECT *

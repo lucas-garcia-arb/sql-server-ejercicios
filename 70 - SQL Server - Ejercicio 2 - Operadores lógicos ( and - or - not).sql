@@ -43,7 +43,7 @@ FROM peliculas;
 --7
 DELETE
 FROM peliculas
-WHERE NOT actor = 'Tom Cruise' AND duracion >= 100;
+WHERE actor <> 'Tom Cruise' AND duracion <= 100;
 
 SELECT *
 FROM peliculas;
